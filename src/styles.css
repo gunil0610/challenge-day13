@@ -1,7 +1,16 @@
-@import url("https://fonts.googleapis.com/css2?family=Concert+One&family=Lato&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lato&family=Mitr:wght@500&display=swap");
 @import "reset.css";
 @import "bg.css";
+@import "statusbar.css";
+@import "header.css";
+@import "content.css";
+@import "nav.css";
 
 * {
   box-sizing: border-box;
+}
+
+body {
+  background-color: #2698f9;
+  display: flex;
 }
